@@ -1,0 +1,6 @@
+n1=int(input("informe primeiro numero "))
+n2=int(input("informe segundo numero "))
+i=1
+i=list(range(n1+1,n2))
+print(i)
+
