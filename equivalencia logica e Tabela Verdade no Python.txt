@@ -1,0 +1,51 @@
+print("coluna com 3 variáveis são 8 combinações posivéis " )
+print("P Q R")
+print('')
+
+print ("v v v")
+print ("v v f")
+print ("v f v")
+print ("v f f")
+print ("f v v")
+print ("f v f")
+print ("f f v")
+print ("f f f")
+
+
+
+print("equivalência e tabelça verdade")
+print(" Pv(q^r)<-->(P v Q) ^ (P v R)" )
+
+
+
+print("Crie  a coluna com 3 variavéis " )
+
+valorP=input("Digite Valor para a variável P " )
+valorQ=input("Digite Valor para a variável Q " )
+valorR=input("Digite Valor para a variável R " )
+
+if valorP=="v" and valorQ=="v" and valorR=="v":
+   print ("(Q ^ R)= V  (P V Q )= V (P V R)= V ")
+   print ( "  P V (Q ^ R)= V     <-->   (P V Q) ^ (P V R)= V   resposta:V")
+
+if valorP=="v" and valorQ=="v" and valorR=="f":
+   print ("(Q ^ R)= F  (P V Q )= V (P V R)= V ")
+   print ("  P V (Q ^ R)= V     <-->   (P V Q) ^ (P V R)= V   resposta:V" )
+
+if   valorP=="v" and valorQ=="f" and valorR=="v":
+   print("(Q ^ R)= F  (P V Q )= V (P V R)= V \n P V (Q ^ R)= V     <-->   (P V Q) ^ (P V R)= V   resposta:V"   )
+
+if   valorP=="v" and valorQ=="f" and valorR=="f":
+   print ("(Q ^ R)= F  (P V Q )= V (P V R)= V  \n P V (Q ^ R)= V     <-->   (P V Q) ^ (P V R)= V   resposta:V "   )
+
+if valorP=="f" and  valorQ=="v" and valorR=="v":
+   print ("(Q ^ R)= V  (P V Q )= V (P V R)= V \n  P V (Q ^ R)= V     <-->   (P V Q) ^ (P V R)= V   resposta:v  " )
+
+if valorP=="f" and valorQ== "v"and valorR == "f":
+   print("(Q ^ R)= F  (P V Q )= V (P V R)= F \n  P V (Q ^ R)= F     <-->   (P V Q) ^ (P V R)= V   resposta:V " )
+
+if valorP== "f" and valorQ=="f" and valorR=="v":
+   print("(Q ^ R)= F  (P V Q )= F (P V R)= V \n  P V (Q ^ R)=  F    <-->   (P V Q) ^ (P V R)= V   resposta:V " )
+
+if valorP== "f" and valorQ =="f" and valorR=="f":
+   print("(Q ^ R)= F  (P V Q )= F (P V R)= F \n  P V (Q ^ R)= F     <-->   (P V Q) ^ (P V R)= V   resposta:V " )
