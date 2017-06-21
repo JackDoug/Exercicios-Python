@@ -6,5 +6,5 @@ if med<5.9:
     print("Insuficiente")
 elif med<6.9:
     print("suficiente")
-elif     
+    
 
