@@ -1,3 +1,5 @@
+## média com função ##
+
 def LerNúmero():
     a=int(input("Digite um número Inteiro: "))
     return(a)
