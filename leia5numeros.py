@@ -1,3 +1,5 @@
+## Média ##
+
 n1=int(input("digite primeiro numero "))
 n2=int(input("digite segundo numero "))
 n3=int(input("digite terceiro numero "))
